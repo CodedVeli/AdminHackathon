@@ -35,10 +35,10 @@ const Filter = () => {
   };
 
   return (
-    <div className="w-64 bg-white border rounded-md shadow-md p-4 ">
+    <div className="  relative w-36 bg-white border rounded-md shadow-md p-4 ">
       {/* Filter Title */}
       <div
-        className="flex justify-between items-center cursor-pointer"
+        className="flex justify-between items-center cursor-pointer "
         onClick={toggleMenu}
       >
         <h2 className="text-lg font-semibold">Filter</h2>
@@ -47,7 +47,7 @@ const Filter = () => {
 
       {/* Filter Options */}
       {isOpen && (
-        <div className="mt-4 space-y-4">
+        <div className="mt-4 space-y-4 absolute  bg-white p-5">
           {/* Status Section */}
           <div>
             <h3 className="text-md font-medium">Status</h3>

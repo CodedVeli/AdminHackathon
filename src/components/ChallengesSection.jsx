@@ -10,8 +10,8 @@ function ChallengesSection() {
     const navigate = useNavigate();
   return (
     <section>
-      <div className="bg-[#002A3B] w-full flex flex-col space-y-5 items-center justify-center ">
-        <h1 className="text-white text-3xl font-semi-bold">
+      <div className="bg-[#002A3B] w-full flex flex-col space-y-5 items-center justify-center h-[40vh] ">
+        <h1 className="text-white text-3xl font-semi-bold mt-10">
           Explore Challenges
         </h1>
         <div className="flex flex-row space-x-4 w-full px-4 sm:px-0 sm:w-auto">
