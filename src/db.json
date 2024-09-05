@@ -1,0 +1,55 @@
+{
+    "hackathons": [
+      {
+        "id": 1,
+        "name": "AI for Climate Change",
+        "start_date": "2024-09-01T08:00:00",
+        "end_date": "2024-09-30T17:00:00",
+        "description": "A hackathon to solve climate change-related challenges using AI.",
+        "image": "climate_change_hackathon.jpg",
+        "level": "medium",
+        "status": "active"
+      },
+      {
+        "id": 2,
+        "name": "Blockchain and NFTs Security",
+        "start_date": "2024-10-10T09:00:00",
+        "end_date": "2024-11-10T18:00:00",
+        "description": "Secure NFT assets with AI-driven blockchain solutions.",
+        "image": "nft_security_hackathon.png",
+        "level": "hard",
+        "status": "upcoming"
+      },
+      {
+        "id": 3,
+        "name": "Earthquake Prediction with AI",
+        "start_date": "2024-08-01T07:30:00",
+        "end_date": "2024-08-31T16:30:00",
+        "description": "Using AI to predict earthquakes and minimize damage.",
+        "image": "earthquake_prediction_hackathon.jpg",
+        "level": "easy",
+        "status": "past"
+      },
+      {
+        "id": 4,
+        "name": "AI for Healthcare Solutions",
+        "start_date": "2024-09-15T10:00:00",
+        "end_date": "2024-10-15T18:00:00",
+        "description": "Innovate AI-driven healthcare solutions to address global health challenges.",
+        "image": "healthcare_hackathon.png",
+        "level": "medium",
+        "status": "upcoming"
+      },
+      {
+        "id": 5,
+        "name": "AI for Intelligent Weather Forecasting",
+        "start_date": "2024-09-05T09:00:00",
+        "end_date": "2024-09-25T17:00:00",
+        "description": "Use AI to improve the accuracy of weather predictions and analyze climate data.",
+        "image": "weather_forecasting_hackathon.png",
+        "level": "hard",
+        "status": "active"
+      }
+    ]
+  }
+  
