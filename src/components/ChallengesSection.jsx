@@ -33,8 +33,8 @@ function ChallengesSection() {
           />
 
           <div className="p-4 flex flex-col items-center justify-center">
-            <span className="inline-block bg-green-100 text-green-800 text-sm px-2 py-1 rounded-full font-semibold uppercase mb-2">
-              Active
+            <span className="inline-block bg-[#F2C94C40] text-[#666666] text-sm px-2 py-1 rounded-full font-semibold uppercase mb-2">
+              upcoming
             </span>
 
             <h2 className="text-gray-900 text-center font-bold text-xl mb-2">
@@ -69,8 +69,8 @@ function ChallengesSection() {
           />
 
           <div className="p-4 flex flex-col items-center justify-center">
-            <span className="inline-block bg-green-100 text-green-800 text-sm px-2 py-1 rounded-full font-semibold uppercase mb-2">
-              Active
+            <span className="inline-block bg-[#F2C94C40] text-[#666666] text-sm px-2 py-1 rounded-full font-semibold uppercase mb-2">
+              Upcoming
             </span>
 
             <h2 className="text-gray-900 text-center font-bold text-xl mb-2">
@@ -213,8 +213,8 @@ function ChallengesSection() {
           />
 
           <div className="p-4 flex flex-col items-center justify-center">
-            <span className="inline-block bg-green-100 text-green-800 text-sm px-2 py-1 rounded-full font-semibold uppercase mb-2">
-              Active
+            <span className="inline-block bg-[#FF3C002B] text-[#666666] text-sm px-2 py-1 rounded-full font-semibold uppercase mb-2">
+              Past
             </span>
 
             <h2 className="text-gray-900 text-center font-bold text-xl mb-2">

@@ -35,10 +35,18 @@ const Filter = () => {
   };
 
   return (
-    <div className="  relative w-36 bg-white border rounded-md shadow-md p-4 ">
+    <div className="relative w-36 bg-white border rounded-md shadow-md p-4">
+      {/* Overlay for backdrop blur */}
+      {isOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-25  z-10"
+          onClick={() => setIsOpen(false)}
+        ></div>
+      )}
+
       {/* Filter Title */}
       <div
-        className="flex justify-between items-center cursor-pointer "
+        className="flex justify-between items-center cursor-pointer z-20 relative"
         onClick={toggleMenu}
       >
         <h2 className="text-lg font-semibold">Filter</h2>
@@ -47,7 +55,7 @@ const Filter = () => {
 
       {/* Filter Options */}
       {isOpen && (
-        <div className="mt-4 space-y-4 absolute  bg-white p-5">
+        <div className="mt-4 space-y-4 absolute right-0.5 bg-white p-5 z-20 shadow-lg">
           {/* Status Section */}
           <div>
             <h3 className="text-md font-medium">Status</h3>
